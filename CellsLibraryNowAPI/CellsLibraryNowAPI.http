@@ -1,0 +1,6 @@
+@CellsLibraryNowAPI_HostAddress = http://localhost:5100
+
+GET {{CellsLibraryNowAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
