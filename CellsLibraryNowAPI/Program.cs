@@ -13,7 +13,7 @@ app.Urls.Add($"http://0.0.0.0:{port}");
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.MapGet("/", () => "CellsLibraryNowAPI is running");
+app.MapGet("/", () => "CellsLibraryNowAPI is running 🚀");
 
 app.MapControllers();
 
